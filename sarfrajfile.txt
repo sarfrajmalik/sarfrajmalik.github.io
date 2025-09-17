@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sarfraj Malik — Official Website</title>
+  <meta name="description" content="Sarfraj Malik - Official personal website with photo and contact.">
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; padding: 20px; text-align: center; background:#f9f9f9;}
+    img {max-width: 220px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,.15);}
+    h1 {font-size: 2em; margin-top: 20px;}
+    p {max-width: 600px; margin: 12px auto; line-height: 1.5;}
+    a {color: #0077cc; text-decoration: none;}
+    footer {margin-top: 40px; color: #777;}
+  </style>
+</head>
+<body>
+  <h1>Sarfraj Malik</h1>
+  <img src="sarfraj.jpg" alt="Sarfraj Malik" title="Sarfraj Malik">
+  <p>Welcome! Yeh meri official website hai. Yahan tumhe mera photo aur contact info milega.</p>
+  <p>📩 Contact: <a href="mailto:sarfrajansariyt786@email.com">sarfrajansariyt786@email.com</a></p>
+  <footer>© <span id="year"></span> Sarfraj Malik</footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
